@@ -1,0 +1,6 @@
+.base {
+    list-style-type: none;
+    overflow-y: auto;
+    max-height: 400px;
+    scrollbar-width: thin;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary: #1c2133;
+    --secondary: #00ab8a;
+    --cta: #ef6925;
+    --neutral: #f7f1ee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--neutral);
+    background: linear-gradient(90deg, #1C2133 0%, #154147 100%);
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 100vh;
+    font-weight: 300;
+}
+
+input,
+button {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    padding: 0.125rem;
+    border: none;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 0 0.5em;
+    height: 2.5rem;
+    width: 100%;
+
+    background-color: color-mix(in srgb, var(--neutral) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--neutral) 20%, transparent);
+    border-radius: 0.25rem;
+    color: var(--neutral);
+
+    &:focus-visible {
+        outline: var(--secondary) solid 1px;
+        outline-offset: 0.125rem;
+    }
+
+    &::placeholder {
+        color: color-mix(in srgb, var(--neutral) 40%, transparent);
+    }
+}

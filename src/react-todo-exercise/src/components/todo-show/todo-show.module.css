@@ -1,0 +1,35 @@
+.base {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: background-color, border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+    &[data-completed='true'] {
+        text-decoration: line-through;
+    }
+
+    & svg {
+        color: #ef6925;
+    }
+
+    &:hover {
+        background-color: rgba(255, 255, 255, .05);
+        background-clip: padding-box;
+        backdrop-filter: blur(60px);
+        /* fallback for old browsers */
+        -webkit-backdrop-filter: blur(60px);
+
+        border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+}
+
