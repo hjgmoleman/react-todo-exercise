@@ -62,6 +62,7 @@ export function TodoShow(props) {
                 >
                     <ArchiveX
                         alt="Remove todo"
+                        strokeWidth={1}
                         title="Remove todo"
                     />
                 </button>
@@ -71,6 +72,7 @@ export function TodoShow(props) {
                 >
                     <SquarePen
                         alt="Edit todo"
+                        strokeWidth={1}
                         title="Remove todo"
                     />
                 </button>

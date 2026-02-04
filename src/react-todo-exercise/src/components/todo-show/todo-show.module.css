@@ -15,6 +15,7 @@
 
     & svg {
         color: #ef6925;
+        stroke-size: 1px;
     }
 
     &:hover {
