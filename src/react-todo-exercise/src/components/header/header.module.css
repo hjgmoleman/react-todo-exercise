@@ -1,0 +1,19 @@
+.base {
+    padding-inline: 0;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Funnel Sans', sans-serif;
+}
+
+.tagline {
+    color: var(--secondary);
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    margin-left: 3px;
+    margin-top: 0.2rem;
+}

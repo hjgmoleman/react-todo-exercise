@@ -1,0 +1,5 @@
+.base {
+    max-width: 500px;
+    min-width: 400px;
+    padding-block: 1rem;
+}
